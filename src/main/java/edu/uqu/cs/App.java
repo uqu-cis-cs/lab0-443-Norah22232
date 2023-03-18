@@ -24,9 +24,9 @@ public class App{
 *        TweetleBeetlePoodle 13 Tweetle 15 TweetleBeetle 17 TweetlePoodle 19 TweetleBeetle 
 */
 public static void twisters(){
-    int count=0;
-    for(int i=1; i<=110; i++){
-        if(i%2==0 && i%4==0 && i%6==0){
+    int count = 0;
+    for (int i = 1; i <= 110; i++) {
+        if (i%2==0 && i%4==0 && i%6==0) {
             System.out.print("TweetleBeetlePoodle ");
         }
         else if(i%2==0 && i%4==0){
